@@ -39,7 +39,6 @@ class MyButton extends StatelessWidget {
         width: double.infinity,
         child: ElevatedButton(
             onPressed: () {},
-            child: Text(text, style: TextStyle(color: Colors.white),),
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.lightGreen,
               shape: RoundedRectangleBorder(
@@ -47,6 +46,7 @@ class MyButton extends StatelessWidget {
               ),
               padding: EdgeInsets.symmetric(horizontal: 50, vertical: 20),
             ),
+            child: Text(text, style: TextStyle(color: Colors.white),),
         ),
       ),
     );
